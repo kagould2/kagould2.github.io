@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invasive Species in the Upper Midwest</title>
+    <style>
+        /* CSS Styles */
+        h1 {
+            color: #333;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        h2 {
+            color: #666;
+            font-size: 20px;
+        }
+        p {
+            font-size: 16px;
+        }
+        strong {
+            font-weight: bold;
+        }
+        ul {
+            list-style-type: disc;
+        }
+        ol {
+            list-style-type: decimal;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .image-container img {
+            width: 200px; /* Adjust as needed */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Invasive Species in the Upper Midwest</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Back to Bug Identification</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>This website outlines some of the invasive species found in the upper Midwest region of the United States.</p>
+        </section>
+        <section>
+            <h2>Types of Invasive Species</h2>
+            <h3>Asian Carp</h3>
+            <p>These fish are known for their ability to quickly reproduce and dominate aquatic ecosystems, often outcompeting native species.</p>
+            <h3>Emerald Ash Borer</h3>
+            <p>An invasive beetle species that has devastated ash tree populations in the region, leading to widespread tree loss.</p>
+            <h3>Zebra Mussels</h3>
+            <p>Small freshwater mollusks that attach themselves to surfaces in lakes and rivers, causing damage to infrastructure and native species.</p>
+        </section>
+        <section>
+            <h2>Impact</h2>
+            <p>Invasive species can have significant ecological and economic impacts, including habitat destruction, loss of biodiversity, and increased management costs.</p>
+        </section>
+        <section>
+            <h2>Image Gallery</h2>
+            <div class="image-container">
+                <figure>
+                    <img src="asian_carp.jpg" alt="Asian Carp">
+                    <figcaption>Asian Carp</figcaption>
+                </figure>
+                <figure>
+                    <img src="emerald_ash_borer.jpg" alt="Emerald Ash Borer">
+                    <figcaption>Emerald Ash Borer</figcaption>
+                </figure>
+                <figure>
+                    <img src="zebra_mussels.jpg" alt="Zebra Mussels">
+                    <figcaption>Zebra Mussels</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Invasive Species Website</p>
+    </footer>
+</body>
+</html>
